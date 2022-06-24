@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  position: static;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  margin-right: 2rem;
+}
+
+a {
+  padding: 0.8rem 1.5rem;
+}
+
+a:hover {
+  background-color: #D6223B;
+  border-radius: 3px;
+}

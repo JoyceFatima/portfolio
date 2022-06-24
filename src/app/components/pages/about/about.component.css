@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  background-color: #51172E;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.about {
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.about h2 {
+  font-size: 28px;
+}
+
+.about p {
+  font-size: 16px;
+  margin-top: 1rem;
+  width: 580px;
+  gap: wrap;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
