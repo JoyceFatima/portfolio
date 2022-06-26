@@ -6,18 +6,14 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open sans', sans-serif;
   font-size: 16px;
   color: #fff;
   background: #19142A;
 }
 
 main {
-  max-width: 1550px;
-  max-height: 980px;
-  width: 100%;
-  height: 100%;
-  margin: 2rem auto;
+  margin: 3rem 10rem;
 }
 
 li {

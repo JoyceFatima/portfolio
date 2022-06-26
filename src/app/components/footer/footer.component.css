@@ -1,17 +1,10 @@
-.container_footer {
-  padding: 2rem 0;
+.container {
+  padding: 3rem 0;
   text-align: center;
   background-color: #2A2344;
-}
-
-.social_media {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem;
-}
-
-.copy {
   border-top: 1px solid rgba(119, 119, 119, 0.219);
-  padding-top: 2rem;
+}
+
+.copy p {
+  padding-top: 3rem;
 }

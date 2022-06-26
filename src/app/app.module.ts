@@ -6,12 +6,12 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { AboutComponent } from './components/pages/about/about.component';
 import { HomeComponent } from './components/pages/home/home.component';
-import { ServicesComponent } from './components/pages/services/services.component';
+import { AboutComponent } from './components/pages/about/about.component';
+import { ShareComponent } from './components/pages/share/share.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
-import { PortfolioComponent } from './components/pages/portfolio/portfolio.component';
+import { BlogComponent } from './components/pages/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +20,9 @@ import { PortfolioComponent } from './components/pages/portfolio/portfolio.compo
     FooterComponent,
     AboutComponent,
     HomeComponent,
-    ServicesComponent,
     ContactComponent,
-    PortfolioComponent
+    BlogComponent,
+    ShareComponent
   ],
   imports: [
     BrowserModule,

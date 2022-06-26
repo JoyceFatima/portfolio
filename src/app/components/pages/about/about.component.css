@@ -3,7 +3,7 @@
   height: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: right;
+  align-items: center;
 }
 
 .details {
@@ -31,14 +31,23 @@ button {
 }
 
 .about p {
+  font-size: 18px;
+  margin-top: 0.5rem;
+}
+
+#describe {
   font-size: 16px;
   margin-top: 1rem;
-  width: 580px;
-  gap: wrap;
+  width: 520px;
 }
 
 .profile {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.profile img {
+  width: 504px;
+  height: 435px;
 }
