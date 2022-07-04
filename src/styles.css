@@ -10,6 +10,7 @@ body {
   font-size: 16px;
   color: #fff;
   background: #19142A;
+  transition: 0.3s;
 }
 
 main {
