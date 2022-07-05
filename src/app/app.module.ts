@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
@@ -18,6 +19,8 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { ShareComponent } from './components/pages/share/share.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { BlogComponent } from './components/pages/blog/blog.component';
+import { MomentsComponent } from './components/pages/moments/moments.component';
+import { FormComponent } from './components/form/form.component';
 
 registerLocaleData(localePt, 'pt-BR');
 
@@ -30,13 +33,17 @@ registerLocaleData(localePt, 'pt-BR');
     HomeComponent,
     ContactComponent,
     BlogComponent,
-    ShareComponent
+    ShareComponent,
+    FormComponent,
+    MomentsComponent
   ],
   imports: [
     BrowserModule,
     RouterModule,
     AppRoutingModule,
     FontAwesomeModule,
+    ReactiveFormsModule,
+    FormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

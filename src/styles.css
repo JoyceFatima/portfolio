@@ -15,6 +15,7 @@ body {
 
 main {
   margin: 3rem 10rem;
+  min-height: 65vh;
 }
 
 li {
@@ -23,5 +24,10 @@ li {
 
 a {
   text-decoration: none;
+  transition: 0.3s;
   color: #fff;
+}
+
+button, input, a {
+  cursor: pointer;
 }
